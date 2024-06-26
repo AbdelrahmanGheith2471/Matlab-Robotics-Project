@@ -1,0 +1,19 @@
+o=[1,1,0];
+o1=[2,5,2];
+x=[2,0,0];
+x1=[0,0,0];
+y=[0,2,0];
+y1=[0,1,0];
+U=[1,1,1];
+u = 5;
+v = 10;
+% z=create_frame(o,x,y);
+z1=create_frame(o1,x1,y1)
+i=[1,1,1];
+point_w = point_transformation_to_world_frame(z1,i)
+% p=point_transformation_between_two_frames(z,z1,i);
+% z1=create_frame1(o1,x1,y1)
+% frames = transformTree
+% tform = getTransform(frames,z,z1)
+% % % load exampleRobots.mat
+% % transform = getTransform(puma1,randomConfiguration(puma1),'L2','L6')

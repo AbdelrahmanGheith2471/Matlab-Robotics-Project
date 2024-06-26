@@ -1,0 +1,12 @@
+x = -0.1:0.01:0.1;
+y1 = sqrt(0.2^2 - x.^2);
+y2 = -sqrt(0.2^2 - x.^2);
+z = ones(size(x))*-0.8;
+waypoints = ones(size(x,2),3);
+waypoints2 = ones(size(x,2),3);
+waypoints(:,1) = x;
+waypoints(:,2) = y1;
+waypoints(:,3) = z;
+waypoints2(:,1) = x;
+waypoints2(:,2) = y2;
+waypoints2(:,3) = z;

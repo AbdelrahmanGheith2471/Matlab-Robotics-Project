@@ -1,0 +1,1 @@
+[X,ArmInfo]=importrobot('ROBOTUR5');
